@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         startBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 Intent categoryIntent = new Intent(MainActivity.this, CategoriesActivity.class);
                 startActivity(categoryIntent);
             }

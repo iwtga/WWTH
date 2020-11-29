@@ -133,6 +133,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:text="Next"
+        android:enabled="false"
+        android:alpha="0.7"
         android:background="@drawable/rounded_corners"
         android:backgroundTint="#848484"
         app:layout_constraintBottom_toBottomOf="parent"
