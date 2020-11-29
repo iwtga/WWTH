@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WWTH">
-        <activity android:name=".SetsActivity"></activity>
+        <activity android:name=".QuestionsActivity"></activity>
+        <activity android:name=".SetsActivity" />
         <activity android:name=".CategoriesActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
